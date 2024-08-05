@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WGW",
+    "GSG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:grass_block"
+    },
+    "W": {
+      "item": "minecraft:ghast_tear"
+    },
+    "S": {
+      "item": "minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "tutorial:origin_stone",
+    "count": 4
+  }
+}
