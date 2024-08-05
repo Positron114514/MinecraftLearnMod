@@ -1,7 +1,7 @@
-package datagen;
+package com.example.datagen;
 
-import blocks.ModBlocks;
-import items.ModItems;
+import com.example.blocks.ModBlocks;
+import com.example.items.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;

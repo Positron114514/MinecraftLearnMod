@@ -1,10 +1,9 @@
-package items;
+package com.example.items;
 
-import blocks.ModBlocks;
+import com.example.blocks.ModBlocks;
 import com.example.ExampleMod;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -25,13 +24,23 @@ public class ModItemGroups {
                                 .displayName(Text.translatable("itemGroup.origin"))
                                         .icon(() -> new ItemStack(ModItems.ORIGIN_STONE))
                         .entries(((displayContext, entries) -> {
+                            // items
                             entries.add(ModItems.ORIGIN_STONE);
+
+                            // tools
+                            entries.add(ModItems.ORIGIN_AXE);
+                            entries.add(ModItems.ORIGIN_HOE);
+                            entries.add(ModItems.ORIGIN_PICKAXE);
+                            entries.add(ModItems.ORIGIN_SHOVEL);
+                            entries.add(ModItems.ORIGIN_SWORD);
+
+                            // armor
                             entries.add(ModItems.ORIGIN_ARMOR_BOOTS);
                             entries.add(ModItems.ORIGIN_ARMOR_CHESTPLATE);
                             entries.add(ModItems.ORIGIN_ARMOR_HELMET);
                             entries.add(ModItems.ORIGIN_ARMOR_LEGGINGS);
-                            entries.add(Items.DIAMOND);
 
+                            // blocks
                             entries.add(ModBlocks.ORIGIN_BLOCK);
                             entries.add(ModBlocks.ORIGIN_ORE);
                         })).build());

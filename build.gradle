@@ -87,6 +87,9 @@ publishing {
 	}
 }
 
+// duplicate solve
+tasks.withType(Copy).all { duplicatesStrategy 'exclude' }
+
 fabricApi {
 	configureDataGeneration()
 }

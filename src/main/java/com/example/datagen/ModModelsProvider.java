@@ -1,7 +1,7 @@
-package datagen;
+package com.example.datagen;
 
-import blocks.ModBlocks;
-import items.ModItems;
+import com.example.blocks.ModBlocks;
+import com.example.items.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
@@ -24,6 +24,13 @@ public class ModModelsProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator){
         itemModelGenerator.register(ModItems.ORIGIN_STONE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ORIGIN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIGIN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIGIN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIGIN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIGIN_HOE, Models.HANDHELD);
+
         itemModelGenerator.registerArmor((ArmorItem) ModItems.ORIGIN_ARMOR_BOOTS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.ORIGIN_ARMOR_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.ORIGIN_ARMOR_HELMET);

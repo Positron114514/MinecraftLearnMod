@@ -1,4 +1,4 @@
-package items;
+package com.example.items;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;

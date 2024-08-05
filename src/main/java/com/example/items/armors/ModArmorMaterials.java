@@ -1,7 +1,7 @@
-package armors;
+package com.example.items.armors;
 
 import com.example.ExampleMod;
-import items.ModItems;
+import com.example.items.ModItems;
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.Registries;

@@ -1,4 +1,4 @@
-package blocks;
+package com.example.blocks;
 
 import com.example.ExampleMod;
 import net.minecraft.block.AbstractBlock;
