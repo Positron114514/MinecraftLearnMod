@@ -1,0 +1,7 @@
+// 1.21	2024-08-05T19:16:51.2182124	Example mod/Recipes
+720d2693bcaebe266ef780c7b5f0c52153d60827 data\tutorial\recipe\origin_stone.json
+ec8d03adf221b76fa9e5be808dc9f6fad5bea9da data\tutorial\advancement\recipes\building_blocks\origin_ore_from_smelting_origin_ore.json
+db94779d183897d0d945dd57bb8fab16e52250c1 data\tutorial\advancement\recipes\misc\origin_stone.json
+1b1acddde30434894e9f262887d87f4ab55f8c2e data\tutorial\advancement\recipes\building_blocks\origin_block.json
+8f647c6592e11a4e1fc6480266ffd2d8fd4b41b5 data\tutorial\recipe\origin_ore_from_smelting_origin_ore.json
+0e5dcc1fbbbdbc13b3f7057f9af0d0d5e952bd55 data\tutorial\recipe\origin_block.json

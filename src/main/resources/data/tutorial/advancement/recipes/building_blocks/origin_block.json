@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_origin_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial:origin_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:origin_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_origin_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:origin_block"
+    ]
+  }
+}
