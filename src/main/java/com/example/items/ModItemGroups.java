@@ -27,6 +27,10 @@ public class ModItemGroups {
                             // items
                             entries.add(ModItems.ORIGIN_STONE);
 
+                            // food
+                            entries.add(ModItems.ORIGIN_SOUP);
+                            entries.add(ModItems.ORIGIN_COOKIE);
+
                             // tools
                             entries.add(ModItems.ORIGIN_AXE);
                             entries.add(ModItems.ORIGIN_HOE);

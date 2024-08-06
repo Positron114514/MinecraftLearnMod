@@ -1,4 +1,4 @@
-// 1.21	2024-08-06T12:07:29.4994351	Example mod/Model Definitions
+// 1.21	2024-08-06T14:34:27.9934108	Example mod/Model Definitions
 d8f07040e18c8c15075e512de187a2cc7a4110ce assets\tutorial\models\item\origin_boots_copper_trim.json
 943ad67ebe790bb1288325bf34a311c619760e5e assets\tutorial\models\item\origin_chestplate_amethyst_trim.json
 d08f7b87ef8c95c8d1f6412857404fa3288b83b3 assets\tutorial\models\item\origin_leggings_quartz_trim.json
@@ -22,8 +22,8 @@ ac2d25d759d61e697607309deb2d780fcda686c7 assets\tutorial\models\item\origin_axe.
 9fda2689df9b4b64aebc76f8e54e420e7db4ba61 assets\tutorial\models\item\origin_boots_iron_trim.json
 f9aa18e72c2cccfda022e5875560879a64511a0e assets\tutorial\models\item\origin_helmet_lapis_trim.json
 29d0cc54348de22750bf6b6df4ce12a8496f443d assets\tutorial\models\item\origin_chestplate_copper_trim.json
-fcf207ae8bc9e1ca398e52aa6f3f11e091fe3399 assets\tutorial\models\item\origin_chestplate_gold_trim.json
 2d3c1141756bc046dc1d21666bb44c6178a6924b assets\tutorial\models\item\origin_sword.json
+fcf207ae8bc9e1ca398e52aa6f3f11e091fe3399 assets\tutorial\models\item\origin_chestplate_gold_trim.json
 300794242a29b8004cb7b21c835866758f7b9f3c assets\tutorial\models\item\origin_boots_netherite_trim.json
 198d713c20383f16936b55808671790a017a35de assets\tutorial\models\item\origin_boots_emerald_trim.json
 5ed6dd4bc5b90ad64c869e79ff6c16317caefa80 assets\tutorial\models\item\origin_leggings_iron_trim.json
