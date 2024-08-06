@@ -2,8 +2,10 @@ package com.example.items;
 
 import com.example.items.armors.ModArmorMaterials;
 import com.example.ExampleMod;
+import com.example.items.foods.ModFoodComponents;
 import com.example.items.tools.ModToolMaterials;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.type.FoodComponents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -52,6 +54,13 @@ public class ModItems {
             new HoeItem(ModToolMaterials.ORIGIN_STONE,
                      new Item.Settings().attributeModifiers(
                             HoeItem.createAttributeModifiers(ModToolMaterials.ORIGIN_STONE, 6, -1.0f))));
+
+
+    public static final Item ORIGIN_COOKIE = register("origin_cookie",
+            new Item(new Item.Settings().food(ModFoodComponents.ORIGIN_COOKIE)));
+
+    public static final Item ORIGIN_SOUP = register("origin_soup",
+                new Item(new Item.Settings().food(ModFoodComponents.ORIGIN_SOUP)));
 
     public static void registerModItems(){
         // register

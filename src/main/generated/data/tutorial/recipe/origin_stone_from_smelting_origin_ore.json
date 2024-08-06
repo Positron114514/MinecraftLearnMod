@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "blocks",
+  "category": "misc",
   "cookingtime": 200,
   "experience": 0.7,
   "group": "origin",
@@ -8,6 +8,6 @@
     "item": "tutorial:origin_ore"
   },
   "result": {
-    "id": "tutorial:origin_ore"
+    "id": "tutorial:origin_stone"
   }
 }

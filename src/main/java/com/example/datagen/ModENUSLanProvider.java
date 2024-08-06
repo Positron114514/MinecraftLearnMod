@@ -26,6 +26,10 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ORIGIN_ARMOR_HELMET, "Origin Stone Helmet");
         translationBuilder.add(ModItems.ORIGIN_ARMOR_LEGGINGS, "Origin Stone Leggings");
 
+        // foods
+        translationBuilder.add(ModItems.ORIGIN_COOKIE, "Origin Cookie");
+        translationBuilder.add(ModItems.ORIGIN_SOUP, "Origin Soup");
+
         // tools
         translationBuilder.add(ModItems.ORIGIN_SWORD, "Origin Stone Sword");
         translationBuilder.add(ModItems.ORIGIN_PICKAXE, "Origin Stone Pickaxe");

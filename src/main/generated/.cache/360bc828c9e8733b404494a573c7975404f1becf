@@ -1,4 +1,4 @@
-// 1.21	2024-08-05T22:36:35.0909309	Example mod/Model Definitions
+// 1.21	2024-08-06T12:07:29.4994351	Example mod/Model Definitions
 d8f07040e18c8c15075e512de187a2cc7a4110ce assets\tutorial\models\item\origin_boots_copper_trim.json
 943ad67ebe790bb1288325bf34a311c619760e5e assets\tutorial\models\item\origin_chestplate_amethyst_trim.json
 d08f7b87ef8c95c8d1f6412857404fa3288b83b3 assets\tutorial\models\item\origin_leggings_quartz_trim.json
@@ -8,7 +8,9 @@ d08f7b87ef8c95c8d1f6412857404fa3288b83b3 assets\tutorial\models\item\origin_legg
 fc511bb16eede16dc3bb6c95eae0f2b7c430095c assets\tutorial\models\item\origin_leggings_redstone_trim.json
 93760c97255dbf26ac339ed0a80fe9a774400045 assets\tutorial\models\item\origin_helmet_copper_trim.json
 8be8687f6c8609c3d4a19e2efd0ec9e31a64e78c assets\tutorial\models\item\origin_helmet_gold_trim.json
+af97247adc820ef483e05f4b998a64023bef6aa6 assets\tutorial\models\item\origin_cookie.json
 62c98cdbd6148175e8d880c50105a6bb162e82a9 assets\tutorial\models\item\origin_chestplate_lapis_trim.json
+e129daa1301c74969a6595bf6f121c14f04d02ea assets\tutorial\models\item\origin_soup.json
 bc92f49e8dd9426883916e0ce2806a6795fa0909 assets\tutorial\models\item\origin_shovel.json
 9fa0761a48251ff8f27cb912e532ced55884937e assets\tutorial\models\item\origin_stone.json
 26e28c522be147b150f7e5bad0466be8f9504729 assets\tutorial\models\item\origin_leggings.json
@@ -52,6 +54,6 @@ f8d22a7b37b98b1c72e4cb35241a234cbbba2f08 assets\tutorial\models\item\origin_boot
 dc79aa717bd604492a35c3133845539572bd9817 assets\tutorial\models\block\origin_ore.json
 21b7314faa8e87fbb7b7548c77cbef476f964a5e assets\tutorial\models\item\origin_helmet_diamond_trim.json
 2d414c093eb03570577bbd5369295b49cf67496a assets\tutorial\models\item\origin_leggings_gold_trim.json
-7aebbf88780226da664204375290e61c02309723 assets\tutorial\models\item\origin_helmet_emerald_trim.json
 be28860b521e234d3d71a15be215b982fa3dfd2b assets\tutorial\models\item\origin_pickaxe.json
+7aebbf88780226da664204375290e61c02309723 assets\tutorial\models\item\origin_helmet_emerald_trim.json
 e041ea86c52bf5025b271cd98ac31151bd2e175d assets\tutorial\models\item\origin_boots_gold_trim.json
